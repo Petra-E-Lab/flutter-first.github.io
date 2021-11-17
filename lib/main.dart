@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'gen/assets.gen.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -87,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        leading: Builder(
+        /*leading: Builder(
           builder: (BuildContext context) {
             return IconButton(
               icon: Image.asset(Assets.images.logo.path),
@@ -97,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
               tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
             );
           },
-        ),
+        ),*/
         title: const Text(
           'Flutter App',
           textAlign: TextAlign.center,
