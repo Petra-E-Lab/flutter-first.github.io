@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w900,
-            color: secondary,
+            color: Colors.green,
           ),
         ),
       ),
